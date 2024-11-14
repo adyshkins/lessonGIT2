@@ -11,3 +11,5 @@ func summ(a, b int) int {
 func helloUser(name string) string {
 	return "Hello " + name
 }
+
+// задача 1
