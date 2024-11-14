@@ -1,11 +1,13 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Hello World")
+	summ(5, 6)
 }
 
 func summ(a, b int) int {
 	return a + b
+}
+
+func helloUser(name string) string {
+	return "Hello " + name
 }
